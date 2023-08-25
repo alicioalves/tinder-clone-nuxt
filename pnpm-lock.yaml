@@ -62,6 +62,9 @@ devDependencies:
   prettier-plugin-tailwindcss:
     specifier: ^0.5.3
     version: 0.5.3(prettier@3.0.2)
+  prisma:
+    specifier: ^5.2.0
+    version: 5.2.0
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -2371,6 +2374,14 @@ packages:
       {
         integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
       }
+    dev: true
+
+  /@prisma/engines@5.2.0:
+    resolution:
+      {
+        integrity: sha512-dT7FOLUCdZmq+AunLqB1Iz+ZH/IIS1Fz2THmKZQ6aFONrQD/BQ5ecJ7g2wGS2OgyUFf4OaLam6/bxmgdOBDqig==
+      }
+    requiresBuild: true
     dev: true
 
   /@rollup/plugin-alias@5.0.0(rollup@3.28.1):
@@ -11082,6 +11093,18 @@ packages:
         integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==
       }
     engines: { node: ^14.13.1 || >=16.0.0 }
+    dev: true
+
+  /prisma@5.2.0:
+    resolution:
+      {
+        integrity: sha512-FfFlpjVCkZwrqxDnP4smlNYSH1so+CbfjgdpioFzGGqlQAEm6VHAYSzV7jJgC3ebtY9dNOhDMS2+4/1DDSM7bQ==
+      }
+    engines: { node: '>=16.13' }
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 5.2.0
     dev: true
 
   /proc-log@3.0.0:
