@@ -6,7 +6,8 @@ export default defineNuxtConfig({
 		'@pinia/nuxt',
 		'@nuxt/image',
 		'nuxt-icon',
-		'@vueuse/nuxt'
+		'@vueuse/nuxt',
+		'@nuxtjs/supabase'
 	],
 
 	// DevTools
