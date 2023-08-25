@@ -32,6 +32,9 @@ devDependencies:
   '@vueuse/nuxt':
     specifier: ^10.3.0
     version: 10.3.0(nuxt@3.6.5)(vue@3.3.4)
+  daisyui:
+    specifier: ^3.6.1
+    version: 3.6.1
   eslint:
     specifier: ^8.47.0
     version: 8.47.0
@@ -4832,6 +4835,16 @@ packages:
       nth-check: 2.1.1
     dev: true
 
+  /css-selector-tokenizer@0.8.0:
+    resolution:
+      {
+        integrity: sha512-Jd6Ig3/pe62/qe5SBPTN8h8LeUg/pT4lLgtavPf7updwwHpvFzxvOQBHYj2LZDMjUnBzgvIUSjRcf6oT5HzHFg==
+      }
+    dependencies:
+      cssesc: 3.0.0
+      fastparse: 1.1.2
+    dev: true
+
   /css-tree@2.2.1:
     resolution:
       {
@@ -4968,6 +4981,22 @@ packages:
       {
         integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==
       }
+    dev: true
+
+  /daisyui@3.6.1:
+    resolution:
+      {
+        integrity: sha512-H330IdmNoQy0i6ImktBIvIVsyYujl1N2R73rDiWFjgIGPzXIFRMFh2PcmErcSzpLJmZ28jPMEwQJEJaNp6uN5g==
+      }
+    engines: { node: '>=16.9.0' }
+    dependencies:
+      colord: 2.9.3
+      css-selector-tokenizer: 0.8.0
+      postcss: 8.4.28
+      postcss-js: 4.0.1(postcss@8.4.28)
+      tailwindcss: 3.3.3
+    transitivePeerDependencies:
+      - ts-node
     dev: true
 
   /data-uri-to-buffer@4.0.1:
@@ -6483,6 +6512,13 @@ packages:
     resolution:
       {
         integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
+      }
+    dev: true
+
+  /fastparse@1.1.2:
+    resolution:
+      {
+        integrity: sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
       }
     dev: true
 
