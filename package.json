@@ -12,9 +12,11 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
+		"@capacitor/cli": "5.4.0",
 		"@nuxt/devtools": "latest",
 		"@nuxt/image": "1.0.0-rc.1",
 		"@nuxtjs/eslint-config-typescript": "^12.0.0",
+		"@nuxtjs/ionic": "^0.12.1",
 		"@nuxtjs/supabase": "^1.0.2",
 		"@nuxtjs/tailwindcss": "^6.8.0",
 		"@pinia/nuxt": "^0.4.11",
@@ -33,5 +35,14 @@
 		"prettier-plugin-tailwindcss": "^0.5.3",
 		"prisma": "^5.2.0",
 		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@capacitor/android": "5.4.0",
+		"@capacitor/app": "5.0.6",
+		"@capacitor/core": "5.4.0",
+		"@capacitor/haptics": "5.0.6",
+		"@capacitor/ios": "5.4.0",
+		"@capacitor/keyboard": "5.0.6",
+		"@capacitor/status-bar": "5.0.6"
 	}
 }

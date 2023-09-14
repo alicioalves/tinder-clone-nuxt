@@ -1,0 +1,7 @@
+{
+  "name": "Tinder Clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
