@@ -7,8 +7,12 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'nuxt-icon',
 		'@vueuse/nuxt',
-		'@nuxtjs/supabase'
+		'@nuxtjs/supabase',
+		'@nuxtjs/ionic'
 	],
+
+	// Since this is a mobile app, we need to disable server-side rendering
+	ssr: false,
 
 	// DevTools
 	devtools: { enabled: true }
