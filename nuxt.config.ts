@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'nuxt-icon',
 		'@vueuse/nuxt',
-		'@nuxtjs/supabase',
+		// '@nuxtjs/supabase'
 		'@nuxtjs/ionic'
 	],
 
